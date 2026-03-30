@@ -1,8 +1,22 @@
-// Calls of this function should be replaced with calls of `string_slice` or `string`.
-fn placeholder(input) {
-    match self {
-        
+trait StringArg {
+    fn dispatch(self);
+}
+
+impl StringArg for &str {
+    fn dispatch(self) {
+        string_slice(self);
     }
+}
+
+impl StringArg for String {
+    fn dispatch(self) {
+        string(self);
+    }
+}
+
+// Calls of this function should be replaced with calls of `string_slice` or `string`.
+fn placeholder<T: StringArg>(input: T) {
+    input.dispatch();
 }
 
 fn string_slice(arg: &str) {
@@ -25,7 +39,8 @@ fn main() {
 
     placeholder("rust is fun!".to_owned());
 
-    placeholder("nice weather".into());
+    // placeholder("nice weather".into());
+    placeholder("nice weather".to_string());
 
     placeholder(format!("Interpolation {}", "Station"));
 
