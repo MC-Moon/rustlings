@@ -40,3 +40,14 @@ enums3
 strings1
 strings2
 strings3
+strings4
+modules1
+modules2
+modules3
+hashmaps1
+hashmaps2
+traits1
+traits2
+traits3
+traits4
+traits5
