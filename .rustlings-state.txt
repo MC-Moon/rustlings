@@ -46,6 +46,8 @@ modules2
 modules3
 hashmaps1
 hashmaps2
+hashmaps3
+options1
 traits1
 traits2
 traits3
