@@ -48,6 +48,9 @@ hashmaps1
 hashmaps2
 hashmaps3
 options1
+options2
+options3
+errors1
 traits1
 traits2
 traits3
