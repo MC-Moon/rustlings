@@ -53,6 +53,9 @@ options3
 errors1
 errors2
 errors3
+errors4
+errors5
+errors6
 traits1
 traits2
 traits3
