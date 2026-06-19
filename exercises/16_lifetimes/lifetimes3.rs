@@ -11,7 +11,5 @@ fn main() {
         author: "George Orwell",
         title: "1984",
     };
-
     println!("{} by {}", book.title, book.author);
 }
-1
