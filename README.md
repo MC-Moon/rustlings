@@ -2,34 +2,41 @@
 
 [Rustlings](https://github.com/rust-lang/rustlings) 연습 문제를 풀며 Rust를 학습하는 저장소입니다.
 
+🎉 I finished all of rustlings!
+ I'm a Rust newbie now.🎉
+<img width="764" height="581" alt="Rustlings" src="https://github.com/user-attachments/assets/3e2c0060-7427-4540-b997-898658577e2d" />
+
 ## 학습 진행 상황
 
-- [x] Intro
-- [x] Variables
-- [x] Functions
-- [x] If
-- [x] Primitive Types
-- [x] Vectors
-- [x] Move Semantics
-- [x] Structs
-- [x] Enums
-- [x] Strings
-- [x] Modules
-- [x] Hashmaps
-- [x] Options
-- [x] Error Handling
-- [x] Generics
-- [x] Traits
-- [x] Lifetimes
-- [x] Tests
-- [x] Iterators
-- [ ] Smart Pointers (진행 중)
-- [ ] Threads
-- [ ] Macros
-- [ ] Clippy
-- [ ] Conversions
 
-> 위 목록은 커밋 히스토리를 기반으로 한 대략적인 진행 상황입니다.
+| # | 챕터 | 문제 수 | 상태 |
+|---|------|:------:|:----:|
+| 00 | Intro | 2 | ✅ |
+| 01 | Variables | 6 | ✅ |
+| 02 | Functions | 5 | ✅ |
+| 03 | If | 3 | ✅ |
+| 04 | Primitive Types | 6 | ✅ |
+| 05 | Vecs | 2 | ✅ |
+| 06 | Move Semantics | 5 | ✅ |
+| 07 | Structs | 3 | ✅ |
+| 08 | Enums | 3 | ✅ |
+| 09 | Strings | 4 | ✅ |
+| 10 | Modules | 3 | ✅ |
+| 11 | Hashmaps | 3 | ✅ |
+| 12 | Options | 3 | ✅ |
+| 13 | Error Handling | 6 | ✅ |
+| 14 | Generics | 2 | ✅ |
+| 15 | Traits | 5 | ✅ |
+| 16 | Lifetimes | 3 | ✅ |
+| 17 | Tests | 3 | ✅ |
+| 18 | Iterators | 5 | ✅ |
+| 19 | Smart Pointers | 4 | ✅ |
+| 20 | Threads | 3 | ✅ |
+| 21 | Macros | 4 | ✅ |
+| 22 | Clippy | 3 | ✅ |
+| 23 | Conversions | ✅ |
+| — | Quizzes | 3 | ✅ |
+
 > 정확한 상태는 `rustlings` CLI로 확인하세요.
 
 ## 실행 방법
