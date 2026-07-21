@@ -34,7 +34,32 @@ impl Default for Person {
 // 5. Parse the second element from the split operation into a `u8` as the age.
 // 6. If parsing the age fails, return the default of `Person`.
 impl From<&str> for Person {
-    fn from(s: &str) -> Self {}
+    fn from(s: &str) -> Self {
+        // Method 1: Using dobule match statements.
+        match s.split(',').collect::<Vec<&str>>().as_slice() {
+            [name, age] if !name.is_empty() => match age.parse::<u8>() {
+                Ok(age) => Person {
+                    name: name.to_string(),
+                    age,
+                },
+                Err(_) => Person::default(),
+            },
+            _ => Person::default(),
+        }
+
+        // Method 2
+        // let parts: Vec<&str> = s.split(',').collect();
+        // if parts.len() != 2 || parts[0].is_empty() {
+        //     return Person::default(); //Early return
+        // }
+        // match parts[1].parse::<u8>() {
+        //     Ok(age) => Person {
+        //         name: parts[0].to_string(),
+        //         age,
+        //     },
+        //     Err(_) => Person::default(),
+        // }
+    }
 }
 
 fn main() {
