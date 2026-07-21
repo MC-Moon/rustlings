@@ -34,7 +34,7 @@
 | 20 | Threads | 3 | ✅ |
 | 21 | Macros | 4 | ✅ |
 | 22 | Clippy | 3 | ✅ |
-| 23 | Conversions | ✅ |
+| 23 | Conversions | 5 | ✅ |
 | — | Quizzes | 3 | ✅ |
 
 > 정확한 상태는 `rustlings` CLI로 확인하세요.
