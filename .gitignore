@@ -2,3 +2,8 @@ Cargo.lock
 target/
 .vscode/
 .rustlings-state*
+
+
+# Added by cargo
+
+/target
